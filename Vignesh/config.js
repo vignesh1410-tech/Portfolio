@@ -13,7 +13,7 @@ const CONFIG = {
   projectName: "Multi-Domain Hardware Ventures",
   projectTag: "PREPARED FOR VIBECON INDIA",
   projectDesc: "I find expensive hardware problems and build affordable, end-to-end solutions. Founder's mindset — always willing to learn new domains to ship a product.",
-  platform: "Hardware / Cloud / SaaS",
+  platform: "Hardware / Product Development",
   duration: "2021 - Present",
   stackShort: "Systems Architecture + Prototyping + Leadership",
 

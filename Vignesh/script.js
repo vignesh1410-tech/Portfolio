@@ -66,23 +66,6 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>`;
   });
 
-  // ─── Process title & cards ───
-  const pParts = (C.processTitle || 'Process & Development').split(' ');
-  const pLast = pParts.pop();
-  document.getElementById('process-title').innerHTML =
-    `${pParts.join(' ')} <span class="accent-text">${pLast}</span>`;
-  const processEl = document.getElementById('process-grid');
-  if (C.process) {
-    C.process.forEach((p, i) => {
-      processEl.innerHTML += `
-        <div class="process-card reveal" data-delay="${i * 100}">
-          <span class="process-step">STEP 0${i + 1}</span>
-          <h3>${p.title}</h3>
-          <p>${p.desc}</p>
-        </div>`;
-    });
-  }
-
   // ─── Tech stack ───
   const techEl = document.getElementById('tech-row');
   C.tech.forEach((t, i) => {
