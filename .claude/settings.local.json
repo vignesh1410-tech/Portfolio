@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv Vignesh/vicky.html vicky.html)",
+      "Bash(mv Vignesh/config.js vicky-config.js)",
+      "Bash(mv Vignesh/index.css vicky-style.css)",
+      "Bash(mv Vignesh/script.js vicky-script.js)",
+      "Bash(mv Vignesh/passport_3.jpg passport_3.jpg)",
+      "Bash(mv Aslam/aslam.html aslam.html)",
+      "Bash(mv Aslam/config.js aslam-config.js)",
+      "Bash(mv Aslam/index.css aslam-style.css)",
+      "Bash(mv Aslam/script.js aslam-script.js)",
+      "Bash(mv \"Aslam/WhatsApp Image 2026-03-25 at 22.46.24.jpeg\" \"aslam-photo.jpeg\")"
+    ]
+  }
+}

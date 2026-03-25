@@ -2,7 +2,7 @@ const CONFIG = {
   // 1. PERSONAL INFO
   name: "Aslam",
   fullName: "Mohammed Aslam",
-  heroPhoto: "WhatsApp Image 2026-03-25 at 22.46.24.jpeg",
+  heroPhoto: "aslam-photo.jpeg",
   role: "AI Engineer",
   email: "aslam1234u10b@gmail.com",
   domain: "github.com/mohammedaslam19",
