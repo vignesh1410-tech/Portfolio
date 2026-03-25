@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
   C.screens.forEach((s, i) => {
     screensEl.innerHTML += `
       <div class="screen-card reveal" data-delay="${i * 100}">
-        <div class="screen-phone"><img src="../assets/${s.img}" alt="${s.title}"></div>
+        <div class="screen-phone"><img src="${s.img}" alt="${s.title}"></div>
         <div class="screen-meta">
           <span class="screen-num">${s.num}</span>
           <h3>${s.title}</h3>

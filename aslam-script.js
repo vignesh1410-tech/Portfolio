@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const isReverse = i % 2 !== 0;
     showList.innerHTML += `
       <div class="show-row ${isReverse ? 'reverse' : ''} anim">
-        <div class="show-phone"><img src="../assets/${s.img}" alt="${s.title}"></div>
+        <div class="show-phone"><img src="${s.img}" alt="${s.title}"></div>
         <div class="show-text">
           <span class="show-label">SCREEN ${s.num}</span>
           <h3>${s.title}</h3>

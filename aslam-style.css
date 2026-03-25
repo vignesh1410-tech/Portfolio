@@ -401,6 +401,13 @@ section {
   line-height: 1.7;
 }
 
+/* ─── About ─── */
+.about {
+  padding: 100px 32px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 /* ─── Process ─── */
 .process {
   padding: 100px 32px;
