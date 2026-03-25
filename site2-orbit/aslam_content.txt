@@ -1,0 +1,91 @@
+====================================================
+PORTFOLIO CONTENT — PERSONA: ASLAM
+(AI ENGINEER / ML SYSTEMS)
+==========================
+
+──────────────────────────────────────────────
+1. PERSONAL INFO
+──────────────────────────────────────────────
+   NAME               = Mohammed Aslam A
+   ROLE               = AI Engineer 
+   EMAIL              = [aslam1234u10b@gmail.com]
+   DOMAIN             = github.com/mohammedaslam19
+   FOOTER_TEXT        = Aslam — AI Engineering Portfolio
+
+──────────────────────────────────────────────
+2. PROJECT OVERVIEW (About the Project)
+──────────────────────────────────────────────
+PROJECT_NAME       = Intelligent Document Query System
+PROJECT_HEADLINE   = Intelligent Document Query System
+PROJECT_TAGLINE    = AI ENGINEERING — CASE STUDY
+PROJECT_DESC       = Designing and deploying a scalable multi-agent document intelligence platform enabling natural language querying over unstructured documents using OCR, RAG, and LLM-based reasoning.
+
+PLATFORM           = Web + Backend API
+DURATION           = Ongoing / Production
+TECH_STACK_SHORT   = Python + LangChain + OpenSearch + LLMs
+
+──────────────────────────────────────────────
+3. THE CHALLENGE & SOLUTION
+──────────────────────────────────────────────
+SECTION_1_TITLE    = The Engineering Challenge
+SECTION_1_DESC     = Building a system capable of extracting, understanding, and querying large-scale unstructured documents with high accuracy and low latency.
+
+CARD_1_TITLE       = Document Understanding
+CARD_1_DESC        = Integrated OCR pipelines (DeepSeek OCR) to extract structured text from complex scanned documents.
+
+CARD_2_TITLE       = Retrieval Architecture
+CARD_2_DESC        = Designed RAG-based pipelines using vector embeddings and OpenSearch for semantic retrieval across 11K+ documents.
+
+CARD_3_TITLE       = Agentic Reasoning
+CARD_3_DESC        = Built multi-agent workflows using Agno framework to perform query decomposition, reasoning, and response generation.
+
+──────────────────────────────────────────────
+4. PROCESS & SYSTEM DESIGN
+──────────────────────────────────────────────
+PROCESS_1_TITLE    = Discovery
+PROCESS_1_DESC     = Analyzed enterprise document workflows and identified gaps in traditional keyword-based search systems.
+
+PROCESS_2_TITLE    = Architecture Design
+PROCESS_2_DESC     = Designed a modular pipeline combining OCR, embedding generation, vector search, and LLM agents.
+
+PROCESS_3_TITLE    = Implementation
+PROCESS_3_DESC     = Developed Python-based orchestration layers with robust error handling, retries, and token optimization strategies.
+
+PROCESS_4_TITLE    = Evaluation
+PROCESS_4_DESC     = Benchmarked multiple LLMs (Mistral, Gemini) for latency, accuracy, and token efficiency in production scenarios.
+
+──────────────────────────────────────────────
+5. SYSTEM SHOWCASE
+──────────────────────────────────────────────
+SCREENS_TITLE      = System Capabilities
+SCREENS_DESC       = Focused on scalability, accuracy, and real-time document intelligence.
+
+SCREEN_1_TITLE     = OCR Pipeline
+SCREEN_1_DESC      = Automated extraction of structured text from scanned and image-based documents.
+SCREEN_1_TAGS      = OCR, Preprocessing
+
+SCREEN_2_TITLE     = Semantic Search
+SCREEN_2_DESC      = Vector-based retrieval system enabling context-aware search across large datasets.
+SCREEN_2_TAGS      = RAG, Embeddings
+
+SCREEN_3_TITLE     = Multi-Agent Query Engine
+SCREEN_3_DESC      = Agent-based reasoning system for handling complex natural language queries.
+SCREEN_3_TAGS      = Agents, LLM, Reasoning
+
+──────────────────────────────────────────────
+6. TOOL STACK
+──────────────────────────────────────────────
+TECH_1             = Python
+TECH_2             = LangChain
+TECH_3             = OpenSearch
+TECH_4             = Agno Framework
+TECH_5             = TensorFlow / PyTorch
+TECH_6             = FastAPI
+
+──────────────────────────────────────────────
+7. CALL TO ACTION (Footer)
+──────────────────────────────────────────────
+CTA_TITLE          = Interested in building AI systems together?
+CTA_DESC           = I'm open to AI engineering roles, freelance projects, and collaborations in LLM systems and automation.
+CTA_BTN_PRIMARY    = Let's Connect
+CTA_BTN_SECONDARY  = View Resume

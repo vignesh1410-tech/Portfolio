@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vignesh Damodaran — Systems Integrator & Product Builder</title>
+  <meta name="description" content="Portfolio of Vignesh Damodaran — a systems integrator bridging hardware, software, and market needs. Prepared for Vibecon India.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div class="grain-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">
+        <span class="brand-name" data-cfg="name"></span>
+        <span class="brand-sep">/</span>
+        <span class="brand-proj" data-cfg="navSub"></span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#screens">Projects</a>
+        <a href="#tech">Tech</a>
+        <a href="#contact" class="nav-cta">Contact Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="tag-dot"></span>
+        <span data-cfg="projectTag"></span>
+      </div>
+      <h1 id="hero-title"></h1>
+      <p class="hero-role" data-cfg="role"></p>
+      <p class="hero-desc" data-cfg="projectDesc"></p>
+      <div class="hero-meta">
+        <div class="meta-item">
+          <span class="meta-label">Platform</span>
+          <span class="meta-val" data-cfg="platform"></span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <span class="meta-label">Duration</span>
+          <span class="meta-val" data-cfg="duration"></span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <span class="meta-label">Focus</span>
+          <span class="meta-val" data-cfg="stackShort"></span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="photo-glow"></div>
+      <div class="photo-frame" id="hero-photo">
+        <span class="photo-initials" id="hero-initials"></span>
+      </div>
+      <div class="floating-badge badge-1">
+        <span class="material-symbols-rounded">build</span>
+        <span>Hardware Builder</span>
+      </div>
+      <div class="floating-badge badge-2">
+        <span class="material-symbols-rounded">rocket_launch</span>
+        <span>Founder Mindset</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Challenge -->
+  <section class="about" id="about">
+    <div class="section-intro reveal">
+      <span class="section-num">01</span>
+      <h2 id="about-title"></h2>
+      <p data-cfg="challengeDesc"></p>
+    </div>
+    <div class="about-grid" id="about-grid"></div>
+  </section>
+
+  <!-- Screens -->
+  <section class="screens" id="screens">
+    <div class="section-intro reveal">
+      <span class="section-num">02</span>
+      <h2 id="screens-title"></h2>
+      <p data-cfg="screensDesc"></p>
+    </div>
+    <div class="screens-carousel" id="screens-carousel"></div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section class="tech" id="tech">
+    <div class="section-intro reveal">
+      <span class="section-num">03</span>
+      <h2>Tech <span class="accent-text">Stack</span></h2>
+    </div>
+    <div class="tech-row" id="tech-row"></div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section class="contact" id="contact">
+    <div class="contact-card reveal">
+      <h2 id="cta-title"></h2>
+      <p data-cfg="ctaDesc"></p>
+      <div class="contact-actions">
+        <a href="#" class="btn btn-primary" id="cta-btn-primary">
+          <span class="material-symbols-rounded">mail</span>
+          <span></span>
+        </a>
+        <a href="#" class="btn btn-ghost" id="cta-btn-secondary">
+          <span class="material-symbols-rounded">description</span>
+          <span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span class="footer-name" data-cfg="footerText"></span>
+      <span class="footer-copy" id="footer-year"></span>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

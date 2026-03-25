@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Aslam — AI Engineer Portfolio</title>
+  <meta name="description" content="AI Engineering portfolio — Intelligent Document Query System using OCR, RAG, and LLM-based reasoning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Ambient glow blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="logo-icon" id="nav-initial">A</div>
+        <span class="logo-name"><span data-cfg="name"></span><span class="logo-dim"> / work</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#stack">Stack</a>
+        <a href="#hire" class="nav-btn" data-cfg="ctaPrimary">Hire Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-left">
+      <span class="hero-tag" data-cfg="projectTag">Portfolio Project</span>
+      <h1 id="hero-title"></h1>
+      <p class="hero-role" data-cfg="role"></p>
+      <p class="hero-sub" data-cfg="projectDesc"></p>
+      <div class="hero-details">
+        <div class="detail">
+          <span class="detail-label">My Role</span>
+          <span class="detail-val" data-cfg="role"></span>
+        </div>
+        <div class="detail">
+          <span class="detail-label">Platform</span>
+          <span class="detail-val" data-cfg="platform"></span>
+        </div>
+        <div class="detail">
+          <span class="detail-label">Duration</span>
+          <span class="detail-val" data-cfg="duration"></span>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#showcase" class="btn-fill">View Screens</a>
+        <a href="#hire" class="btn-line" id="hero-cta-btn">Get in Touch →</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-photo-wrap">
+        <div class="photo-glow"></div>
+        <div class="photo-frame" id="hero-photo">
+          <span class="photo-initials" id="hero-initials"></span>
+        </div>
+        <div class="floating-badge badge-1">
+          <span class="material-symbols-rounded">psychology</span>
+          <span>LLM & RAG</span>
+        </div>
+        <div class="floating-badge badge-2">
+          <span class="material-symbols-rounded">model_training</span>
+          <span>Multi-Agent AI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Challenge -->
+  <section class="process" id="about">
+    <div class="sec-head anim">
+      <span class="sec-tag">01 — CHALLENGE</span>
+      <h2 id="about-title">The Engineering <span class="accent">Challenge</span></h2>
+      <p data-cfg="challengeDesc"></p>
+    </div>
+    <div class="process-grid" id="about-grid"></div>
+  </section>
+
+  <!-- Process -->
+  <section class="process" id="process">
+    <div class="sec-head anim">
+      <span class="sec-tag">02 — PROCESS</span>
+      <h2 id="process-title">Process & <span class="accent">System Design</span></h2>
+    </div>
+    <div class="process-grid" id="process-grid"></div>
+  </section>
+
+  <!-- Showcase -->
+  <section class="showcase" id="showcase">
+    <div class="sec-head anim">
+      <span class="sec-tag">03 — SHOWCASE</span>
+      <h2 id="screens-title">System <span class="accent">Capabilities</span></h2>
+      <p data-cfg="screensDesc"></p>
+    </div>
+    <div id="showcase-list"></div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section class="stack" id="stack">
+    <div class="sec-head anim">
+      <span class="sec-tag">04 — STACK</span>
+      <h2 id="tech-title">Tool <span class="accent">Stack</span></h2>
+    </div>
+    <div class="stack-row" id="stack-row"></div>
+  </section>
+
+  <!-- Contact -->
+  <section class="hire" id="hire">
+    <div class="hire-card anim">
+      <h2 id="cta-title">Interested in <span class="accent">working together</span>?</h2>
+      <p data-cfg="ctaDesc"></p>
+      <div class="hire-btns">
+        <a href="#" class="btn-fill" id="cta-btn-primary">
+          <span class="material-symbols-rounded">mail</span>
+          <span></span>
+        </a>
+        <a href="#" class="btn-line" id="cta-btn-secondary">
+          <span class="material-symbols-rounded">description</span>
+          <span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span id="footer-text"></span>
+      <span id="footer-year"></span>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

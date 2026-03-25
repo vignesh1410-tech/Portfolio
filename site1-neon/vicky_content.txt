@@ -1,0 +1,104 @@
+====================================================
+
+PORTFOLIO CONTENT — PERSONA: VIGNESH (VICKY)
+(Systems Integrator / Hardware Entrepreneur)
+
+====================================================
+
+──────────────────────────────────────────────
+
+PERSONAL INFO
+──────────────────────────────────────────────
+NAME               = Vignesh Damodaran
+ROLE               = Systems Integrator & Product Builder
+EMAIL              = vicki1410vignesh@gmail.com
+FOOTER_TEXT        = Vignesh Damodaran — Built for Vibecon India
+
+──────────────────────────────────────────────
+2. PROJECT OVERVIEW (Profile & Focus)
+──────────────────────────────────────────────
+PROJECT_NAME       = Multi-Domain Hardware Ventures
+PROJECT_HEADLINE   = Bridging Hardware, Software, and Market Needs
+PROJECT_TAGLINE    = PREPARED FOR VIBECON INDIA
+PROJECT_DESC       = I am a systems integrator with a founder's mindset. I specialize in identifying expensive, inefficient hardware problems and building cost-effective, end-to-end ecosystems. I am never afraid to get my hands dirty, step out of my comfort zone, and learn entirely new domains on the fly to get a product shipped.
+
+PLATFORM           = Hardware MVPs / Cloud / SaaS
+DURATION           = 2021 - Present
+TECH_STACK_SHORT   = Systems Architecture + Rapid Prototyping + Technical Leadership
+
+──────────────────────────────────────────────
+3. THE FOUNDER & INTEGRATOR ADVANTAGE
+──────────────────────────────────────────────
+SECTION_1_TITLE    = The Business of Systems Integration
+SECTION_1_DESC     = Great engineering only matters if it solves a real problem. I leverage my cross-disciplinary background to build commercially viable products, bridging the gap between physical mechanics, raw data, and the end-user.
+
+CARD_1_TITLE       = Identifying Market Gaps (Telemetry)
+CARD_1_DESC        = Professional racing telemetry is prohibitively expensive. I architected an affordable, high-precision alternative that delivers enterprise-grade insights to budget-conscious racing teams and EV startups, proving immediate product-market fit.
+
+CARD_2_TITLE       = Innovative Problem Solving (Ad Astra)
+CARD_2_DESC        = Placed 2nd at ISRO's IROC by engineering a rover mechanism that dynamically "hops" over obstacles larger than its own wheels. This solved a critical mobility challenge for extreme-environment traversal without increasing vehicle size.
+
+CARD_3_TITLE       = Scrappy & Fearless Learner
+CARD_3_DESC        = I thrive outside my comfort zone. For example, I completely taught myself pneumatic systems and sheet metal fabrication from scratch in just 5 days to successfully build and deploy a functional VR recoil feedback rig for a live event.
+
+CARD_4_TITLE       = Cross-Platform Ecosystems
+CARD_4_DESC        = I don't just build isolated parts; I build ecosystems. For example, creating kinetic tracking wearables that sync directly to a SaaS dashboard, translating human and vehicle movement into actionable digital data.
+
+CARD_5_TITLE       = R&D & Product Leadership
+CARD_5_DESC        = Managed a cross-functional team of interns and developers. I excel at translating complex engineering constraints into clear business timelines, ensuring we ship a functional MVP rather than getting stuck in development hell.
+
+──────────────────────────────────────────────
+4. PRODUCT DEVELOPMENT LIFECYCLE
+──────────────────────────────────────────────
+PROCESS_1_TITLE    = Market & Problem Discovery
+PROCESS_1_DESC     = Finding expensive or inefficient systems in the market and scoping out affordable, integrated replacements that offer 80% of the value for 20% of the cost.
+
+PROCESS_2_TITLE    = Rapid Hardware Prototyping
+PROCESS_2_DESC     = Utilizing mechanical design and electronics to quickly build functional physical prototypes—solving the hard physical constraints before writing the software.
+
+PROCESS_3_TITLE    = Seamless Cloud Integration
+PROCESS_3_DESC     = Connecting hardware directly to intuitive cloud dashboards. Hardware is only as good as the software that interprets it, so I ensure users get immediate, readable value.
+
+PROCESS_4_TITLE    = User-Centric Iteration
+PROCESS_4_DESC     = I am my own target user. Leveraging my background as a competitive driver (GKDC Champion) to relentlessly track-test our telemetry products, breaking them in the real world to refine the UX and reliability.
+
+──────────────────────────────────────────────
+5. PRODUCT FEATURES & MODULES
+──────────────────────────────────────────────
+SCREENS_TITLE      = Commercial & Deep-Tech Projects
+SCREENS_DESC       = A functional look at the integrated hardware and software products I have helped design, build, and launch.
+
+SCREEN_1_TITLE     = Moto-Insight Edge Device
+SCREEN_1_DESC      = A plug-and-play vehicle tracker that logs high-speed performance and location data in real-time. Designed to be rugged, affordable, and easily installed on any race vehicle.
+SCREEN_1_TAGS      = IoT, Plug-and-Play
+
+SCREEN_2_TITLE     = Kinetic Trackers
+SCREEN_2_DESC      = Modular wearable sensors that attach to athletes or vehicles to monitor complex movements, orientation, and speed, sending the data wirelessly to a central hub.
+SCREEN_2_TAGS      = Wearables, Motion Data
+
+SCREEN_3_TITLE     = Race-Insight SaaS Dashboard
+SCREEN_3_DESC      = A web-based platform that turns raw sensor data into a competitive advantage. It provides racing teams with easy-to-read track maps, speed comparisons, and setup advice.
+SCREEN_3_TAGS      = SaaS, Data Analytics
+
+SCREEN_4_TITLE     = Ad Astra Rover System
+SCREEN_4_DESC      = A highly innovative mechanical linkage that allows small vehicles to climb large obstacles smoothly, ensuring constant ground contact on harsh terrain.
+SCREEN_4_TAGS      = Robotics, Mobility
+
+──────────────────────────────────────────────
+6. CORE SKILLS & STRENGTHS
+──────────────────────────────────────────────
+TECH_1             = Hardware-to-Cloud Integration
+TECH_2             = Technical Team Leadership
+TECH_3             = Product Scoping & MVP Delivery
+TECH_4             = Mechanical Prototyping & CAD
+TECH_5             = Embedded Systems & IoT
+TECH_6             = Data Visualization Strategy
+TECH_7             = Automotive & Vehicle Dynamics
+
+──────────────────────────────────────────────
+7. CALL TO ACTION (Footer)
+──────────────────────────────────────────────
+CTA_TITLE          = Ready to build at Vibecon
+CTA_DESC           = Y Combinator looks for founders who can build fast and solve hard problems. Because I speak the languages of mechanics, electronics, and software, I eliminate friction and get products to market faster. Let's connect at Vibecon India.
+CTA_BTN_PRIMARY    = Let's Talk Startups
+CTA_BTN_SECONDARY  = View Full Resume
