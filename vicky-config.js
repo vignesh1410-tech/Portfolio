@@ -12,39 +12,39 @@ const CONFIG = {
   // 2. PROJECT OVERVIEW
   projectName: "Multi-Domain Hardware Ventures",
   projectTag: "PREPARED FOR VIBECON INDIA",
-  projectDesc: "I find expensive hardware problems and build affordable, end-to-end solutions. Founder's mindset — always willing to learn new domains to ship a product.",
+  projectDesc: "Systems integrator with a racing background. I build affordable hardware solutions to expensive problems — from telemetry systems to rovers. GKDC Champion 2024.",
   platform: "Hardware / Product Development",
   duration: "2021 - Present",
   stackShort: "Systems Architecture + Prototyping + Leadership",
 
   // 3. THE FOUNDER & INTEGRATOR ADVANTAGE
   challengeTitle: "The Business of Systems Integration",
-  challengeDesc: "I bridge physical mechanics, raw data, and end-users to build commercially viable products.",
+  challengeDesc: "I bridge physical mechanics, raw data, and end-users to build commercially viable products. Racing mindset — fast iteration, real-world testing, relentless improvement.",
   cards: [
     {
+      icon: "sports_score",
+      title: "Racing Champion",
+      desc: "GKDC Championship winner 2024. Track experience drives product decisions — what fails under pressure gets fixed first."
+    },
+    {
       icon: "trending_up",
-      title: "Market Gaps (Telemetry)",
-      desc: "Built an affordable racing telemetry system — enterprise-grade insights at a fraction of the cost. Immediate product-market fit with racing teams and EV startups."
+      title: "Telemetry Systems",
+      desc: "Built complete racing telemetry from scratch — sensors, edge devices, and cloud dashboards. 80% of enterprise value at 20% of the cost."
     },
     {
       icon: "rocket_launch",
-      title: "Problem Solving (Ad Astra)",
-      desc: "2nd place at ISRO's IROC. Engineered a rover that \"hops\" over obstacles larger than its wheels — solving mobility without increasing size."
-    },
-    {
-      icon: "school",
-      title: "Fearless Learner",
-      desc: "Self-taught pneumatics and sheet metal fabrication in 5 days to build and deploy a VR recoil rig for a live event."
+      title: "ISRO IROC Finalist",
+      desc: "2nd place at ISRO's IROC 2024. Engineered a rover that \"hops\" over obstacles larger than its wheels using mechanical linkages."
     },
     {
       icon: "hub",
-      title: "Cross-Platform Ecosystems",
-      desc: "Kinetic tracking wearables syncing to SaaS dashboards — translating physical movement into actionable digital data."
+      title: "Cross-Platform Integration",
+      desc: "Wearable sensors syncing to SaaS dashboards — translating physical movement into actionable digital insights."
     },
     {
-      icon: "groups",
-      title: "R&D Leadership",
-      desc: "Led cross-functional teams of interns and developers. Translating engineering constraints into business timelines to ship MVPs."
+      icon: "build",
+      title: "Rapid Prototyping",
+      desc: "Expert in CAD design, 3D printing, and DFMA principles to rapidly iterate from digital concepts to manufacturable physical prototypes."
     }
   ],
 
@@ -64,54 +64,53 @@ const CONFIG = {
       desc: "Connect hardware to intuitive dashboards so users get immediate, readable value."
     },
     {
-      title: "Real-World Iteration",
+      title: "Real-World Testing",
       desc: "Track-test as a GKDC Champion driver — break products in the field to refine UX and reliability."
     }
   ],
 
-  // 5. PRODUCT FEATURES & MODULES
+  // 5. DEEP-TECH PROJECTS
   screensTitle: "Deep-Tech Projects",
   screensDesc: "Hardware and software products I've designed, built, and launched.",
   screens: [
     {
       img: "SyINX.png",
       num: "01",
-      title: "Moto-Insight Edge Device",
-      desc: "Plug-and-play vehicle tracker. Logs real-time performance and location data on any race vehicle.",
-      tags: "IoT, Plug-and-Play"
+      title: "Race-Insight Edge",
+      desc: "Complete telemetry system — ESP32-based sensors, real-time data logging, cloud sync. Built for racing teams and EV startups.",
+      tags: "IoT, ESP32, Python"
     },
     {
       img: "1d2Zv.png",
       num: "02",
-      title: "Kinetic Trackers",
-      desc: "Wearable sensors for movement, orientation, and speed — wireless data to a central hub.",
-      tags: "Wearables, Motion Data"
+      title: "Kinetic Wearables",
+      desc: "Wearable IMU sensors for movement tracking — wireless BLE data to central hub, wireless charging case.",
+      tags: "Wearables, BLE, IMU"
     },
     {
       img: "SyINX.png",
       num: "03",
-      title: "Race-Insight Dashboard",
-      desc: "SaaS platform turning sensor data into track maps, speed comparisons, and setup advice.",
-      tags: "SaaS, Analytics"
+      title: "Race-Insight SaaS",
+      desc: "Full-stack dashboard — track maps, lap comparisons, setup optimization. Python backend with real-time analytics.",
+      tags: "SaaS, Python, React"
     },
     {
       img: "1d2Zv.png",
       num: "04",
       title: "Ad Astra Rover",
-      desc: "Mechanical linkage enabling small vehicles to climb obstacles larger than their wheels.",
-      tags: "Robotics, Mobility"
+      desc: "Hopping mechanism rover for IROC — mechanical linkages enabling climb over obstacles larger than wheel diameter.",
+      tags: "Robotics, Fusion 360"
     }
   ],
 
   // 6. CORE SKILLS & STRENGTHS
   tech: [
-    { icon: "cloud_sync", name: "Hardware-to-Cloud" },
-    { icon: "groups", name: "Team Leadership" },
-    { icon: "inventory_2", name: "MVP Delivery" },
-    { icon: "precision_manufacturing", name: "Mechanical Prototyping" },
-    { icon: "memory", name: "Embedded Systems & IoT" },
-    { icon: "bar_chart", name: "Data Visualization" },
-    { icon: "directions_car", name: "Vehicle Dynamics" }
+    { icon: "3d_rotation", name: "Fusion 360 (CAD)" },
+    { icon: "directions_car", name: "Vehicle Dynamics" },
+    { icon: "precision_manufacturing", name: "3D Printing / CNC" },
+    { icon: "cloud_sync", name: "IoT & Cloud" },
+    { icon: "code", name: "Python" },
+    { icon: "memory", name: "Embedded Basics" }
   ],
 
   // 7. CALL TO ACTION
